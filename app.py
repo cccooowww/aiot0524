@@ -18,6 +18,12 @@ def data():
     result = data.to_dict(orient='records')
     seq = [[item['time'], item['market-price'], item['trade-volume']] for item in result]
     return jsonify(seq)
+ 
+
+
+@app.route("/")
+def index():
+    return render_template('indexAI.html')
 
 @app.route("/noAI")
 def noAI():
