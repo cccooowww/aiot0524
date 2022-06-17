@@ -20,6 +20,11 @@ def data():
     return jsonify(seq)
  
 
+
+@app.route("/")
+def index():
+    return render_template('indexAI.html')
+
 @app.route("/noAI")
 def noAI():
     return render_template('indexNoAI.html')    
@@ -66,6 +71,12 @@ def getData():
     ######### cursor close, conn close
     c.close()
     conn.close()
+
+
+
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
