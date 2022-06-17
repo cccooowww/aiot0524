@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 訓練預測模型
 
 匯入模型
@@ -15,3 +16,6 @@ callAI html frame
 將所有未完成工作完成並彙整放入後
 
 即可得到以上結果
+=======
+Using AI model to predict.
+>>>>>>> 0ca80a35c38254390b1e9c2c880cab5187c06f04
